@@ -41,7 +41,7 @@ app.use(function(req, res, next) {
 /*******
 DATABASE
 *******/
-var connectionString = 'mongodb://alan:turing@ds035846.mlab.com:35846/voting_app-daniellzl';
+var connectionString = process.env.MONGO_DB;
 mongoose.connect(connectionString);
 var db = mongoose.connection;
 db.on('error', function(){
