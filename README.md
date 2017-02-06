@@ -4,7 +4,7 @@ This website allows a user to vote in a poll, create polls, and delete polls. A 
 
 ## Website
 
-https://voting-application-dlzl.herokuapp.com
+https://voting-app-dlzl.herokuapp.com
     
 ## Credit: 
 
