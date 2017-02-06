@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Voting Application</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src='//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js'></script>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/randomcolor/0.4.4/randomColor.js'></script>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
+  </head>
+  <body>
+    <div>
+      <ul class='text-center'>
+        <li class="navBarTitle"><p><strong>Voting Application</strong></p></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/login">My Polls</a></li>
+      </ul> 
+    </div>
+    <div class="container">
+      <% if (success && success.length > 0) { %>
+        <div class="alert alert-success" role="alert">
+          <%= success %>
+        </div>
+      <% } %>
+      <% if (error && error.length > 0) { %>
+        <div class='alert alert-danger' role='alert'>
+          <%= error %>
+        </div>
+      <% } %>      

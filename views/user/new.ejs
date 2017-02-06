@@ -1,0 +1,14 @@
+<% include ../partials/header %>
+
+<h1>views/new.ejs</h1>
+<h1>Create New Poll</h1>
+<form action='/user' method='POST'>
+  <label>ID</label> <input name='userID' type='text' />
+  <label>Name</label> <input name='name' type='text' />
+  <label>Option</label> <input name='options' type='text' />
+  <label>Option</label> <input name='options' type='text' />
+  <label>Option</label> <input name='options' type='text' />
+  <input type='submit' value='Create Poll' />
+</form>
+
+<% include ../partials/footer %>

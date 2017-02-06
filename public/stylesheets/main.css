@@ -1,0 +1,87 @@
+body {
+  /*font-family: "Courier New", Courier, monospace;*/
+  color: #000000;
+  background-image: url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/lined_paper.png');
+}
+
+.container {
+  margin-top: 10px;
+}
+
+.facebook {
+  margin: 50px auto;
+}
+
+.well {
+  background-color: #ffffff;
+  margin: 25px auto;
+}
+
+.table > tbody > tr > td {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  padding: 15px;
+}
+
+td a {
+  border: solid #f1f1f1 1px;
+  color: #000000;
+  display: block;
+  text-decoration: none;
+  padding: 20px 0;
+}
+
+td a:hover {
+  background-color: #f7f7f7; 
+  text-decoration: none;
+}
+
+.navBarTitle {
+  color: #f7f7f7;
+  font-size: 1.25em;
+  letter-spacing: 1px;
+}
+
+ul {
+  background-color: #3b5998;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+li a, li p {
+  color: #ffffff;
+  display: block;
+  margin: 0;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #dfe3ee;
+  text-decoration: none;
+}
+
+.btn {
+  color: #ffffff;
+  background-color: #3b5998;
+}
+
+input[type="radio"] {
+  margin: 8px 0 0;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+footer {
+  margin: 30px 0;
+}

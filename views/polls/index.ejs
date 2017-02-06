@@ -1,0 +1,27 @@
+<% include ../partials/header %>
+
+<div class='text-center'>
+
+  <%if (!currentUser) { %>
+    <h3 class="facebook"><a href="/login" class="btn" role="button">Sign-in to Facebook</a> to make a new poll.</h3>
+  <% } %>
+
+  <h1>Select a poll and vote:</h1>
+
+  <div class="well table-responsive text-center">
+    <table class="table">
+      <% if (polls.length > 0) { polls.forEach(function(poll) { %>
+        <tr>
+          <td>
+            <a href="/polls/<%= poll._id %>"><h3><%= poll.name %></h3></a>
+          </td>
+        </tr>
+      <% }); } else { %>
+        <h3>There are no polls.</h3>
+      <% } %>
+    </table>
+  </div>
+
+</div>
+
+<% include ../partials/footer %>
