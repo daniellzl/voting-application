@@ -11,7 +11,6 @@
   "dependencies": {
     "body-parser": "^1.16.0",
     "connect-flash": "^0.1.1",
-    "e": "0.0.4",
     "ejs": "^2.5.5",
     "express": "^4.14.1",
     "express-sanitizer": "^1.0.1",
