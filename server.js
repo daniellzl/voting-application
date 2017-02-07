@@ -11,6 +11,7 @@ var facebookStrategy = require('passport-facebook');
 var expressSanitizer = require('express-sanitizer');
 var flash = require('connect-flash');
 var Poll = require('./models/poll');
+require('dotenv').config();
 
 /*****
 SET-UP

@@ -1,4 +1,5 @@
 var facebookStrategy = require('passport-facebook');
+require('dotenv').config();
 
 module.exports = function(passport) {
   passport.use(new facebookStrategy({
