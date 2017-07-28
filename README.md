@@ -5,7 +5,3 @@ This website allows a user to vote in a poll, create polls, and delete polls. A 
 ## Website
 
 https://voting-app-dlzl.herokuapp.com
-    
-## Credit: 
-
-https://www.freecodecamp.com/challenges/build-a-voting-app
